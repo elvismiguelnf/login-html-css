@@ -1,0 +1,72 @@
+div.center{
+    text-align: center;
+    margin: auto;
+    }
+    div.login{
+    margin: 0 auto;
+    border:solid;
+    border-color: rgb(0, 0, 0);
+    height: 350px;
+    width: 280px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    }
+div.data{
+    height:auto;
+    width:auto;
+    text-align:center;
+    display: block;
+}
+#user{
+    margin-top: 5em;
+    margin-bottom: 4em;
+    border-radius:3em;
+    text-align: center;
+    width:200px;
+    height: auto;
+    font-size:15px;
+    border-width: 1px;
+}
+#pass{
+    margin-left:5px;
+    margin-bottom:3em;
+    border-radius:3em;
+    text-align: center;
+    width:200px;
+    height: auto;
+    font-size:15px;
+    border-width: 1px;
+}
+#btn-login{
+    margin-top: 40px;
+    margin-left: 3px;
+    font-size: large;
+    background-color: #9333a0;
+    text-shadow: 1px 1px 2px black, 0 0 25px ;
+    border-radius: 10px;
+    font-size: small;
+    width:100px;
+    height:30px;
+    color: white;
+    cursor: pointer;
+}
+h1.text-login-2{
+    color: #9333a0;
+    text-shadow: 1px 1px 2px;
+}
+
+#btn-login:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    color: #9333a0;
+    text-shadow: 1px 1px 2px black, 0 0 25px ;
+    transform: translateY(4px);
+  }
+#btn-login:hover{
+    font-size:15px;
+    width:105px;
+    height:35px;
+    transition: 0.05s;
+}
